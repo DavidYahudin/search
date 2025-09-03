@@ -4,7 +4,8 @@ body {
 }
 
 header {
-    padding-top: 10px;
+    background-color: bisque;
+    padding: 10px;
     display: flex;
 }
 
@@ -12,10 +13,23 @@ header > a {
     padding-left: 20px;
 }
 
+.logo {
+    font-size: 36px;
+    padding: 10px;
+}
+
+.search_bar {
+    margin:5px;
+    width:250px;
+}
+
+.search_button {
+    padding:5px;
+}
+
 .main {
     text-align: center;
     vertical-align: middle;
     background-color: blanchedalmond;
-    font-size: 34px;
     margin-top: 250px;
 }
