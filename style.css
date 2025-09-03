@@ -4,7 +4,6 @@ body {
 }
 
 header {
-    background-color: bisque;
     padding: 10px;
     display: flex;
 }
@@ -14,22 +13,30 @@ header > a {
 }
 
 .logo {
-    font-size: 36px;
+    font-size: 48px;
     padding: 10px;
 }
 
 .search_bar {
-    margin:5px;
-    width:250px;
+    font-size: 16px;
+    margin: 5px;
+    width: 500px;
+    border-radius: 25px;
+    padding: 10px;
+    box-shadow: inset;
 }
 
 .search_button {
-    padding:5px;
+    margin: 5px;
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 10px;
+    background-color: rgb(247, 251, 255);
+    box-shadow: inset;
 }
 
 .main {
     text-align: center;
     vertical-align: middle;
-    background-color: blanchedalmond;
-    margin-top: 250px;
+    margin-top: 150px;
 }
